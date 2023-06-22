@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-rehati",
+  "version": "1.0.1",
+  "description": "A Node config for JavaScript projects for anyone following the one eyed king.",
+  "main": "index.js",
+  "scripts": {
+    "up": "yarn upgrade eslint --latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/jacobaagaardbennike/eslint-config-rehati.git",
+  "keywords": [
+    "eslint",
+    "config",
+    "shared",
+    "lint",
+    "plugin"
+  ],
+  "author": "Jacob Ågård Bennike (jaab@duck.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobaagaardbennike/eslint-config-rehati/issues"
+  },
+  "homepage": "https://github.com/jacobaagaardbennike/eslint-config-rehati#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.8",
+    "@typescript-eslint/parser": "^5.59.8",
+    "eslint": "^8.43.0"
+  }
+}
