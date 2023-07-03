@@ -8,5 +8,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "warn",
     "no-console": "error",
     "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/restrict-template-expressions": "error",
+    "prefer-template": "error",
   },
 };

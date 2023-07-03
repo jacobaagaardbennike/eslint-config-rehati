@@ -1,16 +1,23 @@
 module.exports = {
   overrides: [
     {
-      files: ["**/*.ts?(x)"],
-      extends: ["plugin:@typescript-eslint/recommended"],
-      plugins: ["@typescript-eslint"],
       env: {
+        es6: true,
+        browser: true,
         node: true,
       },
+      files: ["*.js", "*.jsx", "*.ts", "*.tsx", "*.mts", "*.mjs"],
+      extends: [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      ],
+      plugins: ["@typescript-eslint"],
       parser: "@typescript-eslint/parser",
       parserOptions: {
-        ecmaVersion: "latest", // Allows for the parsing of modern ECMAScript features
-        sourceType: "module", // Allows for the use of imports
+        project: "./tsconfig.json",
+        ecmaVersion: "latest",
+        sourceType: "module",
       },
     },
   ],
