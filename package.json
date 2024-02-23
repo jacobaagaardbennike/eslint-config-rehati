@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-rehati",
-  "version": "1.0.7",
+  "version": "1.0.12",
   "description": "A Node config for JavaScript projects for anyone following the one eyed king.",
   "main": "index.js",
   "scripts": {
